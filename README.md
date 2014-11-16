@@ -19,15 +19,17 @@ cd backstg_main
 
 ./manage.py syncdb
 
-# start the server
+start the server:
 
 ./manage.py runserver
 
 It has two endpoints:
 
-http://localhost:8000/difference/          - this lists all the computed differences so far
+http://localhost:8000/difference/          
+this lists all the computed differences so far
 
-http://localhost:8000/difference/100/      - with GET will show the difference value and how many times was called
-                                           - with POST will increment the 'occurences' counter
-
+http://localhost:8000/difference/100/      
+with GET will show the difference value and how many times was called
+with PUT will increment the 'occurences' counter
+with DELETE will delete the entry
 
