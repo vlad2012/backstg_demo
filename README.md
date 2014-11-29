@@ -3,6 +3,9 @@ backstg_demo
 
 A sample calc app with django-rest-framework 
 
+It will return (1 + 2 +...+ N)**2 - (1**2 + 2**2 +...+ N**2) where N between 1 and 100
+and the number of times the service was called for the number N in JSON format
+
 Installation:
 
 git clone https://github.com/vlad2012/backstg_demo.git
